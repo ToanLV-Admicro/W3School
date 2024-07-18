@@ -1,0 +1,388 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons a {
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #ddd;
+}
+
+.sign-up {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;  
+}
+
+.sign-up:hover {
+    background-color: #45a049;
+}
+
+.log-in {
+    background-color: #ddd;
+    color: white;
+}
+
+.log-in:hover {
+    background-color: #ccc;
+}
+/*  */
+.sub-navbar {
+    background-color: rgb(31, 39, 56);
+    padding: 10px;
+}
+
+.sub-navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.sub-navbar ul li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.sub-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.sub-navbar a:hover {
+    background-color: #575757;
+    border-bottom: 3px solid #4CAF50;
+}
+
+.main {
+    position: relative;
+}
+
+.hero {
+    background-image: url('bia-w3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(199, 199, 82);
+}
+
+.hero-text form {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text input[type="text"] {
+    padding: 15px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    width: 90%;
+    font-size: 95%;
+    font-weight: bold;
+}
+
+.hero-text button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background-color: #189259;
+    color: white;
+    width: 20%;
+}
+
+.hero-text button:hover {
+    background-color: #45a049;
+}
+.hero-text a {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+}
+/* Chung --------------------------------------------------------- */
+/* html */
+
+.example-section {
+    background-color: rgb(137, 187, 184);
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+}
+/* css */
+.example-css {
+    background-color: rgb(192, 194, 67);
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+}
+/* ------------------------------------------------  Rieng ----------------- */
+.button-example-container {
+    display: flex;
+    width: 90%;
+}
+
+.button-container {
+    width: 40%;
+    margin: 0 10%;
+    text-align: center;
+    display: block;
+}
+
+.button-container h1 {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.button-container p {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.button-container button {
+    border: none;
+    padding: 10px 10px;
+    margin: 20px 0; /* Add margin for spacing between buttons */
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: large;
+    width: 100%; /* Make buttons full width */
+}
+
+.button-container .one {
+    background-color: #236627;
+    color: white;
+    width: 40%;
+    font-size: 90%;
+}
+
+.button-container .two {
+    background-color: rgb(209, 209, 138);
+    color: black;
+    width: 40%;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.button-container .three {
+    background-color: rgb(5, 13, 32);
+    color: white;
+    width: 40%;
+}
+
+.button-container .four {
+    background-color: pink;
+    color: black;
+    width: 40%;
+}
+.style-button button{
+    display: block;
+    margin-left: 30%;
+}
+
+/* ------------------------------------------------End  Rieng ----------------- */ 
+/*  */
+.example {
+    background-color: gainsboro;
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.example h2 {
+    margin-top: 0;
+}
+
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+code {
+    color: blue;
+    font-family: monospace;
+}
+.btn-Gettificate{
+    border: none;
+    padding: 10px 5px;
+    margin: 20px 0; /* Add margin for spacing between buttons */
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: large;
+    width: 70%; /* Make buttons full width */
+    background-color: pink;
+    color: white;
+    width: 30%;
+    background-color: #45a049;
+}
+.footer{
+    background-image: url('Footer-w3.png');
+    background-color: #0d1117; padding: 40px 0; color: white;
+}
+.style-footer{
+    display: flex;
+     justify-content: space-around;
+      flex-wrap: wrap;
+}
+.style-footer li{
+    color: white; 
+    text-decoration: none;
+}
+.style-footer li a{
+    color: white; 
+    text-decoration: none;
+}
+.head-footer{
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    margin-left: 20%;
+}
+.head-footer a{
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    color: rgb(210, 226, 66);
+    font-size: 80%;
+    font-weight: bold;
+}
+
+/* REPOSITIVE */
+@media screen and (max-width: 1225px) {
+   .navbar-left nav ul {
+        display: none;
+    }
+    .head-footer a{
+        font-size: 60%;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 6px;
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar-left-search {
+        display: none;
+    }
+    .example {
+    display: none;
+    }
+
+    /* html example */
+    .button-container {
+        width: 100%;
+        margin: 0 10%;
+        text-align: center;
+        display: block;
+    }
+    .head-footer a{
+        display: none;
+    }
+}
