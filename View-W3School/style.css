@@ -16,7 +16,6 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #f8f9fa;
-    
 }
 .navbar-left{
     display: flex;
@@ -106,7 +105,7 @@ nav ul li a:hover {
 /*  */
 .sub-navbar {
     background-color: rgb(31, 39, 56);
-    padding: 10px;
+    padding: 10px ;
 }
 
 .sub-navbar ul {
@@ -404,6 +403,7 @@ body {
     padding: 10px 15px;
     color: white;
     text-decoration: none;
+    font-size: 90%;
 }
 
 .nav-link:hover {
@@ -498,6 +498,10 @@ img {
 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+}
+.style-href :hover{
+    color: yellow;
+
 }
 /* REPOSITIVE */
 @media screen and (max-width: 1225px) {
