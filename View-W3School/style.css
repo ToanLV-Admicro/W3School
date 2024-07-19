@@ -357,6 +357,148 @@ code {
     background-image: url('Vien-2.png');
 }
 
+
+/*  */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sub-navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    position: relative;
+}
+
+.scroll-arrow {
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    user-select: none;
+    padding: 0 15px;
+    z-index: 1;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+.scroll-arrow{
+    padding: auto;
+}
+.scroll-arrow:hover{
+ background-color: rgb(226, 238, 238);
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.caption {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
 /* REPOSITIVE */
 @media screen and (max-width: 1225px) {
    .navbar-left nav ul {
