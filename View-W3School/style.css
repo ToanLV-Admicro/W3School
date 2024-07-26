@@ -503,6 +503,32 @@ img {
     color: yellow;
 
 }
+/* color icon footer */
+.color-icon-footer a i:hover {
+    color: yellow; 
+}
+.color-icon-footer a i {
+    color: white;
+     font-size: 24px;
+     margin: 0 10px;
+}
+/*  */
+.text-description-icon-footer a{
+    color: white;
+     text-decoration: none;
+     margin: 0 10px;
+}
+.text-description-icon-footer a:hover{
+    color: yellow;
+}
+.link-sample-w3school{
+    background-color: rgb(229, 235, 240); 
+    width: 60%; height: 25px; 
+    margin-left: 15%; 
+    margin-bottom: 10px;
+     font-size: 80%;
+     padding: 0.5%;
+}
 /* REPOSITIVE */
 @media screen and (max-width: 1225px) {
    .navbar-left nav ul {
@@ -538,5 +564,8 @@ img {
     .head-footer a{
         display: none;
     }
+    /* .link-sample-w3school{
+        display: none;
+    } */
 
 }
